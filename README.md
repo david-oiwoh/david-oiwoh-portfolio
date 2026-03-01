@@ -68,7 +68,7 @@ david-oiwoh-portfolio/
 └── assets/             # Optional folder for fonts, icons, or other assets
     ├── fonts/
     └── icons/
----
+
 
 ## 🌐 Live Portfolio
 
@@ -81,5 +81,3 @@ Check out my portfolio online:
 
 See more projects on GitHub:  
 [github.com/david-oiwoh](https://github.com/david-oiwoh)
-
-## 📂 Project Structure
