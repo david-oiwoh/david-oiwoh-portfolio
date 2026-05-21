@@ -1,14 +1,11 @@
 # Oiwoh David Ighodalo | Frontend Developer
 
 Welcome to my **portfolio website**!  
-I am a **Junior Frontend Developer** based in Lagos, Nigeria, passionate about building **responsive and user-friendly web interfaces** using HTML, CSS, and Bootstrap.
-
+I am a **Frontend Developer**| Building Responsive & User-Friendly Web Experiences
 ---
 
 ## 🌟 About Me
-
-- Junior Frontend Developer with practical experience in **HTML, CSS, and Bootstrap**  
-- Skilled in building **responsive layouts** and **clean UI designs**  
+- I help businesses and individuals create modern, responsive, and engaging websites that deliver smooth user experiences and bring ideas to life.
 - Continuously learning new frontend technologies and improving skills  
 - Open to **remote opportunities** and internships
 
