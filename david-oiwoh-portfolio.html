@@ -1,42 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Oiwoh David | Frontend Developer</title>
 
 <style>
-/* Reset & Fonts */
-* {margin:0; padding:0; box-sizing:border-box; font-family: Arial, Helvetica, sans-serif;}
-body {background: #f4f6f9; color:#333; line-height:1.6;}
-a {text-decoration:none; color:#111;}
-a:hover {color:#555;}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* Header */
-header {background:#111; color:white; text-align:center; padding:80px 20px;}
-header h1 {font-size:2.5rem;}
-header p {margin-top:10px; opacity:0.9;}
-header .btn {display:inline-block; margin-top:15px; padding:10px 20px; background:#f4f6f9; color:#111; border-radius:5px; font-weight:bold;}
-header .btn:hover {background:#ddd;}
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
 
-/* Sections */
-section {padding:60px 20px; max-width:1100px; margin:auto;}
-h2 {font-size:2rem; margin-bottom:20px; border-bottom:3px solid #111; display:inline-block; padding-bottom:5px;}
+a {
+    text-decoration: none;
+    color: #111;
+}
 
-/* Skills & Projects Grid */
-.skills, .projects {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-top:20px;}
+a:hover {
+    color: #555;
+}
 
-/* Card Style */
-.card {background:white; padding:25px; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05); transition:0.3s ease;}
-.card:hover {transform:translateY(-5px);}
-.card h3 {margin-bottom:10px;}
+/* HEADER */
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
 
-/* Footer */
-footer {background:#111; color:white; text-align:center; padding:30px 20px; margin-top:40px;}
+header h1 {
+    font-size: 2.5rem;
+}
 
-/* Contact Buttons */
-.contact a {display:inline-block; margin-right:15px; margin-top:10px; padding:10px 20px; background:#111; color:white; border-radius:5px;}
-.contact a:hover {background:#333;}
+header p {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+header .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #f4f6f9;
+    color: #111;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .btn:hover {
+    background: #ddd;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #111;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* GRID */
+.skills,
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #111;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+    background: #333;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
 </style>
 </head>
 
@@ -45,32 +132,25 @@ footer {background:#111; color:white; text-align:center; padding:30px 20px; marg
 <header>
     <h1>Oiwoh David Ighodalo</h1>
 
-    <p>
-        Frontend Developer | Building Responsive & User-Friendly Web Experiences
+    <p>Frontend Developer | Building Responsive & User-Friendly Web Experiences</p>
+
+    <p style="max-width:700px; margin:15px auto 0;">
+        I help businesses and individuals create modern, responsive, and engaging websites that deliver smooth user experiences.
     </p>
 
-    <p style="margin-top:15px; max-width:700px; margin-left:auto; margin-right:auto;">
-        I help businesses and individuals create modern, responsive, and engaging websites that deliver smooth user experiences and bring ideas to life.
-    </p>
-
-    <a href="https://github.com/david-oiwoh" target="_blank" class="btn">
-        View GitHub
-    </a>
-
-    <a href="#contact" class="btn">
-        Hire Me
-    </a>
+    <a href="https://github.com/david-oiwoh" target="_blank" class="btn">View GitHub</a>
+    <a href="#contact" class="btn">Hire Me</a>
 </header>
 
+<!-- ABOUT -->
 <section>
-<h2>About Me</h2>
-
-<p>
-Hi, I’m David, a Frontend Developer based in Lagos, Nigeria passionate about creating responsive and user-friendly web experiences. I enjoy transforming ideas into clean interfaces, solving frontend challenges, and building websites that work smoothly across all devices.
-</p>
-
+    <h2>About Me</h2>
+    <p>
+        Hi, I’m David, a Frontend Developer based in Lagos, Nigeria passionate about creating responsive and user-friendly web experiences. I enjoy transforming ideas into clean interfaces and building websites that work smoothly across all devices.
+    </p>
 </section>
 
+<!-- SKILLS -->
 <section>
     <h2>Skills</h2>
     <div class="skills">
@@ -83,109 +163,55 @@ Hi, I’m David, a Frontend Developer based in Lagos, Nigeria passionate about c
     </div>
 </section>
 
+<!-- PROJECTS -->
 <section>
+    <h2>Projects</h2>
 
-<h2>Projects</h2>
+    <div class="projects">
 
-<div class="projects">
+        <div class="card">
+            <h3>Clexy E-commerce Website</h3>
+            <p>
+                A modern responsive e-commerce platform with product categories, search functionality, and clean UI for shopping experience.
+            </p>
+            <a href="https://david-oiwoh.github.io/clexy-ecommerce/" target="_blank">Live Demo</a>
+        </div>
 
-<div class="card">
-<h3>Clexy E-commerce Website</h3>
+        <div class="card">
+            <h3>Ocean Basket Website Clone</h3>
+            <p>
+                Responsive restaurant website clone built to practice layout structure and navigation design.
+            </p>
+            <a href="https://david-oiwoh.github.io/Ocean-Basket-Website-Clone/" target="_blank">Live Demo</a>
+        </div>
 
-<p>
-Modern responsive electronics e-commerce platform featuring smart search, product categories, interactive product sections, cart functionality, and a clean shopping experience across desktop and mobile devices.
-</p>
+        <div class="card">
+            <h3>SIMA Fashion Landing Page</h3>
+            <p>
+                Fashion landing page focused on clean UI and responsive design principles.
+            </p>
+            <a href="#">Coming Soon</a>
+        </div>
 
-<a href="https://david-oiwoh.github.io/clexy-ecommerce/" target="_blank">
-Live Demo
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>Ocean Basket Website Clone</h3>
-
-<p>
-Responsive restaurant website clone with structured menus and mobile-friendly design.
-</p>
-
-<a href="#" target="_blank">
-Live Demo
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>SIMA Fashion Landing Page</h3>
-
-<p>
-Responsive fashion landing page focused on clean UI and user experience.
-</p>
-
-<a href="#" target="_blank">
-Live Demo
-</a>
-
-</div>
-
-</div>
-
+    </div>
 </section>
 
-<section>
+<!-- CONTACT -->
+<section id="contact">
     <h2>Contact</h2>
+
     <div class="contact">
-        <p>Email: davidoiwoh1@gmail.com</p>
-        <p>Phone:📞 +234 8164019518</p>
+        <p>Email: <a href="mailto:davidoiwoh1@gmail.com">davidoiwoh1@gmail.com</a></p>
+        <p>Phone: <a href="tel:+2348164019518">+234 816 401 9518</a></p>
+
         <a href="mailto:davidoiwoh1@gmail.com">Send Email</a>
         <a href="https://github.com/david-oiwoh" target="_blank">GitHub</a>
     </div>
 </section>
 
 <footer>
-
-<p>
-© 2026 Oiwoh David Ighodalo | Frontend Developer
-</p>
-
+    <p>© 2026 Oiwoh David Ighodalo | Frontend Developer</p>
 </footer>
 
-</body>
-<!-- CSS -->
-<style>
-* {margin:0; padding:0; box-sizing:border-box; font-family: Arial, Helvetica, sans-serif;}
-body {background: #f4f6f9; color:#333; line-height:1.6;}
-a {text-decoration:none; color:#111;}
-a:hover {color:#555;}
-
-/* Header */
-header {background:#111; color:white; text-align:center; padding:80px 20px;}
-header h1 {font-size:2.5rem;}
-header p {margin-top:10px; opacity:0.9;}
-header .btn {display:inline-block; margin-top:15px; padding:10px 20px; background:#f4f6f9; color:#111; border-radius:5px; font-weight:bold;}
-header .btn:hover {background:#ddd;}
-
-/* Sections */
-section {padding:60px 20px; max-width:1100px; margin:auto;}
-h2 {font-size:2rem; margin-bottom:20px; border-bottom:3px solid #111; display:inline-block; padding-bottom:5px;}
-
-/* Skills & Projects Grid */
-.skills, .projects {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-top:20px;}
-
-/* Card Style */
-.card {background:white; padding:25px; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05); transition:0.3s ease;}
-.card:hover {transform:translateY(-5px);}
-.card h3 {margin-bottom:10px;}
-
-/* Footer */
-footer {background:#111; color:white; text-align:center; padding:30px 20px; margin-top:40px;}
-
-/* Contact Buttons */
-.contact a {display:inline-block; margin-right:15px; margin-top:10px; padding:10px 20px; background:#111; color:white; border-radius:5px;}
-.contact a:hover {background:#333;}
-</style>
-</head>
 </body>
 </html>
